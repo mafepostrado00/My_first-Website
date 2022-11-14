@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.Header {
+  background-color: #eaf6f6;
+  padding-top: 80px;
+}
+
+.intro {
+  margin: 20px;
+  font-size: 80px;
+  font-family: "cursive";
+  text-align: center;
+  color: #66bfbf;
+}
+
+.sub-intro {
+  margin: 20px;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #66bfbf;
+}
+
+/* background image */
+.background-image {
+  margin: auto;
+  height: 50%;
+  width: 100%;
+}
+
+/*  for  -body part */
+.Body {
+  background-color: #ffffff;
+  padding: 80px 15% 5px;
+}
+
+.my-picture {
+  margin: 30px auto;
+  width: 200px;
+}
+
+img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.image--circle {
+  border-radius: 50%;
+}
+
+.greetings {
+  padding: 2% 3%;
+  font-size: 40px;
+  text-align: center;
+  color: #57afaf;
+  font-family: Arial, Helvetica, "sans-serif";
+}
+
+.about-me {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #40514e;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+/* Five dots */
+.boundery-line {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: #cbcfcf;
+}
+
+/* Skills */
+.Skills {
+  padding-top: 8%;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Georgia', Times, serif;
+  color: #66bfbf;
+}
+
+.skill-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-one--background {
+  background-color: #b3d8d8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+.skill-one--image {
+  width: 70%;
+  height: 70%;
+}
+
+.skill-one--texts {
+  padding-left: 5%;
+}
+
+.skill-one--title {
+  margin-right: 18%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #138d8d;
+}
+
+.skill-one--info {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  color: #222c2a;
+  font-family: Segoe UI, "Tahoma", Verdana, sans-serif;
+}
+
+/* for skill two */
+.skill-two {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.skill-two--background {
+  background-color: #f1dcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+.skill-two--image {
+  width: 70%;
+  height: 70%;
+}
+
+.skill-two--texts {
+  padding-right: 5%;
+}
+
+.skill-two--title {
+  margin-right: 18%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  font-family: Arial, "Helvetica", sans-serif;
+  color: #11999e;
+}
+
+.skill-two--info {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  color: #222c2a;
+  font-family: Segoe UI, "Tahoma", Verdana, sans-serif;
+}
+
+/* for last part of the body */
+.last-part {
+  padding-top: 5%;
+  font-size: 30px;
+  text-align: center;
+  font-size: 3em;
+  color: #66bfbf;
+}
+
+.quotation {
+  padding-top: 4%;
+  text-align: center;
+  font-size: 1.8em;
+  color: #079696;
+}
+
+.message {
+  padding: 3% 0;
+  text-align: center;
+  color: #45524f;
+  font-size: 1.2em;
+}
+
+/* for the button */
+.Contact-button {
+  padding: 10px 20px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px 20px;
+  font-weight: 150;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Arial', Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #1ca8a8;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* footer */
+.end-part {
+  margin: 150px 0 0;
+  padding: 70px 0;
+  text-align: center;
+  background-color: #27b3b3;
+}
+
+.Account {
+  padding: 1%;
+  font-size: 25px;
+  text-decoration: none;
+  color: #575555;
+}
+
+.Copyright {
+  padding: 30px 0 0 0;
+  font-size: 20px;
+  color: #eaf6f6;
+}
